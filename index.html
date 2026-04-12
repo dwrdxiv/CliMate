@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CliMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sky-container" id="sky">
+        <div class="sun" id="sun"></div>
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+    </div>
+
+    <div class="ui-wrapper">
+        <header class="search-bar">
+            <input type="text" placeholder="Buscar Ciudad...">
+        </header>
+
+        <main class="main-card">
+            <h1 class="city-name">Ciudad</h1>
+            <div class="temp-container">
+                <span class="temp-number">27</span><span class="temp-symbol">o</span>
+            </div>
+            
+            <div class="extra-info-row">
+                <div class="info-box">Dato 1</div>
+                <div class="info-box">Dato 2</div>
+                <div class="info-box">Dato 3</div>
+                <div class="info-box">Dato 4</div>
+            </div>
+        </main>
+
+        <footer class="popular-cities-tray">
+            <div class="city-card">
+                <h3 class="city-card-name">Ciudad 1</h3>
+                <p class="city-card-temp">24°</p>
+            </div>
+            <div class="city-card">
+                <h3 class="city-card-name">Ciudad 2</h3>
+                <p class="city-card-temp">26°</p>
+            </div>
+            <div class="city-card">
+                <h3 class="city-card-name">Ciudad 3</h3>
+                <p class="city-card-temp">25°</p>
+            </div>
+        </footer>
+    </div>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>
