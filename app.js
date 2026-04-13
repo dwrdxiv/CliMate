@@ -1,5 +1,5 @@
 // CONFIGURACIÓN INICIAL
-const API_KEY = '8b59c90d8c13b221e8735bd721a2cc72'; // Pega aquí tu clave entre las comillas
+const API_KEY = CONFIG.API_KEY; // Pega aquí tu clave entre las comillas
 const DEFAULT_CITY = 'Caracas';
 
 /**
