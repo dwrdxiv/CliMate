@@ -1,0 +1,30 @@
+.search-container {
+    z-index: 15;
+    pointer-events: auto;
+
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0px 15px rgba(0, 15, 102, 0.507);
+    padding: 5px 15px;
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.search-button {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}

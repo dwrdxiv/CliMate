@@ -1,0 +1,25 @@
+/* --- CAPA DE LA INTERFAZ (UI) --- */
+.ui-wrapper {
+    position: relative;
+    z-index: 5; /* Por encima del cielo */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px 80px;
+    pointer-events: none; /* Permite que los clicks pasen al fondo si no hay nada */
+}
+
+.app-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    /* ESTO ES LO MÁS IMPORTANTE */
+    overflow-x: hidden; 
+    overflow-y: hidden; /* Si no quieres scroll vertical tampoco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
